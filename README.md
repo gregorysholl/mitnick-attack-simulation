@@ -2,7 +2,7 @@
 
 This code was developed for an assignment of the Computer & Network Security course at Vrije Universiteit Amsterdam.
 
-The assignment was to simulate an [attack](http://wiki.cas.mcmaster.ca/index.php/The_Mitnick_attack) perfomed by Kevin Mitnick into Tsutomu Shimomure's X-Terminal.
+The assignment was to simulate the [attack](http://wiki.cas.mcmaster.ca/index.php/The_Mitnick_attack) perfomed by Kevin Mitnick into Tsutomu Shimomura's X-Terminal.
 
 The idea was to exploit the trust relationship between `x-terminal` and `server`. The exploit should allow untrusted sources to connect to `x-terminal`. After logging into the `x-terminal`, a certain file would be located at the home directory which should be retrieved.
 
