@@ -11,3 +11,7 @@ The `server` was running a custom daemon which would simulate a SYN-flood attack
 - When 1 packet with `enable` in the payload was received, it would unblock future interations at the port.
 
 For each student to be able to reproduce and test the exploit, 3 (three) VMs were created: `attacker`, `x-terminal` and `server`.
+
+The code has the following dependencies:
+- [libnet 1.1.6](libnet-1.1.6.tar.gz)
+- [libpcap](https://www.tcpdump.org/pcap.html)
